@@ -1,0 +1,149 @@
+header
+{
+    background-color: rgb(173, 170, 172);
+    height: 10vh;
+    background-size: cover;
+    background-position: center ;
+
+}
+body
+{
+    background-color: rgb(173, 170, 172);
+}
+
+
+.main
+{
+    max-width: 1200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact_info
+{
+    float: left;
+    font-size:10px;
+}
+.contact_info ul
+{
+    float: left;
+    list-style-type: none;
+    margin-top: 10px; 
+    font-size: 15px;
+    color: rgb(7, 7, 7);
+}
+.contact_info ul li
+{
+    display: inline-block;
+}
+
+.pages ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.pages ul li
+{
+    display:inline-block;
+}
+
+.pages ul li a
+{
+   text-decoration: none;
+   color: rgb(66, 65, 65); 
+   padding: 5px 20px;
+   border: 1px solid transparent;
+   transition: 0.6s ease;
+
+}
+
+.pages ul li a:hover
+{
+        background-color: rgb(109, 106, 106);
+        color: rgb(245, 241, 241);
+}
+
+.ele_bar
+{
+    width: 1500px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: rgb(48, 49, 49);
+    border-style: groove;
+}
+.ele_bar ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.ele_bar ul li
+{
+    display: inline-block;
+}
+.ele_bar ul li a
+{
+    text-decoration: none;
+    color: rgb(247, 247, 247); 
+    padding: 5px 20px;
+    border: 1px solid transparent;
+ 
+}
+.ele_bar input[type=text]
+{
+    float:right;
+    padding:6px;
+    border:none;
+    margin-top: 1px;
+    margin-right: 16px;
+    font-size: 15px;
+}
+.Title
+{
+    color: rgb(48, 49, 49);
+}
+.Article1 img
+{
+    position: absolute;
+    left: 10%;
+    width: 500px;
+    height: 700px;
+    top: 30%;
+
+}
+.Article2 img
+{
+    position: absolute;
+    left: 55%;
+    width: 500px;
+    height: 700px;
+    top: 30%;
+    right: 5%;
+
+}
+.Article3 img
+{
+    position: absolute;
+    left: 10%;
+    width: 500px;
+    height: 700px;
+    top: 140%;
+
+}
+footer
+{
+    text-align: center;
+    padding: 3px;
+    background-color:rgb(7, 7, 7) ;
+    color: aliceblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
